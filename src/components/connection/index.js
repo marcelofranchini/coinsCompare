@@ -124,7 +124,7 @@ function Connection() {
                 <h5>Investimento</h5>
                 </div>
               <hr/>
-             <input  type='number' id='Investimen' value={inputInvestiment} min="0" step=".01" onChange={(e)=>{setInputInvestiment(e.target.value)}}/>
+             <input  type='number' id='Investimen' value={inputInvestiment} min="0" step="1000" onChange={(e)=>{setInputInvestiment(e.target.value)}}/>
             </div> 
           </div>
 
