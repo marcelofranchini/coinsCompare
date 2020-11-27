@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/coinsCompare/static/css/main.edd45b3e.chunk.css",
+    "main.js": "/coinsCompare/static/js/main.211deb3b.chunk.js",
+    "main.js.map": "/coinsCompare/static/js/main.211deb3b.chunk.js.map",
+    "runtime-main.js": "/coinsCompare/static/js/runtime-main.aa7811fd.js",
+    "runtime-main.js.map": "/coinsCompare/static/js/runtime-main.aa7811fd.js.map",
+    "static/js/2.d6616fe8.chunk.js": "/coinsCompare/static/js/2.d6616fe8.chunk.js",
+    "static/js/2.d6616fe8.chunk.js.map": "/coinsCompare/static/js/2.d6616fe8.chunk.js.map",
+    "static/js/3.367db179.chunk.js": "/coinsCompare/static/js/3.367db179.chunk.js",
+    "static/js/3.367db179.chunk.js.map": "/coinsCompare/static/js/3.367db179.chunk.js.map",
+    "index.html": "/coinsCompare/index.html",
+    "static/css/main.edd45b3e.chunk.css.map": "/coinsCompare/static/css/main.edd45b3e.chunk.css.map",
+    "static/js/2.d6616fe8.chunk.js.LICENSE.txt": "/coinsCompare/static/js/2.d6616fe8.chunk.js.LICENSE.txt",
+    "static/media/styles.css": "/coinsCompare/static/media/coins2.58811dd9.jpg",
+    "static/media/icon.dfff4d35.png": "/coinsCompare/static/media/icon.dfff4d35.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.aa7811fd.js",
+    "static/js/2.d6616fe8.chunk.js",
+    "static/css/main.edd45b3e.chunk.css",
+    "static/js/main.211deb3b.chunk.js"
+  ]
+}
