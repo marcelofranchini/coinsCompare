@@ -4,26 +4,16 @@ import './styles.css'
 import { GraphUp, CalendarPlus, CalendarMinus } from 'react-bootstrap-icons'
 
 
-
-let a  = new Date(1604534400000).toLocaleString()
-
-//console.log(a)
-
 function Connection() {
   const [inputDateBegin, setInputDateBegin] = useState(formatDateBegin())
   const [inputDateFinish, setInputDateFinish] = useState(formatDate())
   const [inputInvestiment, setInputInvestiment] = useState(10000)
   const [dataCoins, setDataCoins] = useState([])
-
-
-  console.log(dataCoins)
-
   const setSortedTodos = useCallback(() => {
   const unixDataBegin = new Date(inputDateBegin)/ 1000   
   const unixDataFinish = new Date(inputDateFinish)/ 1000 
   const differenceDays = (unixDataFinish - unixDataBegin ) / 86400 
   
-  console.log(unixDataBegin)
 
   var myHeaders = new Headers();
   myHeaders.append("Content-Type", "application/json");
@@ -45,10 +35,10 @@ function Connection() {
 
       } 
     } )
-    .catch(error => {
-      return error  
+      .catch(error => {
+        return error  
+      });
     });
-  });
 
     
     useEffect(() => {
