@@ -1,6 +1,6 @@
 # CoinsCompare
 
-Sistema realizado em React, Google Charts e Bootstrap. Api CryptoCompare consumida via fetch 
+Sistema Responsivo realizado em React, Google Charts e Bootstrap. Api CryptoCompare consumida via fetch 
 
 Clonar o projeto, instalar as dependências (npm i) e executar com npm start
 
