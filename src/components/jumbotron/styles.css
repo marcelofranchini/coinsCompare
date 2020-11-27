@@ -1,0 +1,21 @@
+.body{
+    /* width: 100vw;  */
+    height: 100vh;
+    background-image: url('../../assets/coins2.jpg') ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-position: 49% 45%;
+    background-size: cover;
+    border-radius: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    
+}
+
+h1{
+    margin-bottom: 80px;
+    font-size: 48px;
+    font-weight: bold;
+}
