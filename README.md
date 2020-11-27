@@ -5,7 +5,6 @@ Sistema realizado em React, Google Charts e Bootstrap. Api CryptoCompare consumi
 Clonar o projeto, instalar as dependências (npm i) e executar com npm start
 
 Versão Web: https://marcelofranchini.github.io/coinsCompare/
-C:\Program Files\Git\mingw64\bin
 
 ## Referências do Gráfico:
 Gráfico Padrão: Data atual - Ano anterior - R$ 10.000,00

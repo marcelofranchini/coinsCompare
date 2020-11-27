@@ -128,10 +128,13 @@ function Connection() {
             </div> 
           </div>
 
-          <div className="card col-sm-6 col-md-6 col-lg-7" id='chartCard'>
         <Chart
+        className="card col-sm-6 col-md-6 col-lg-7"
+        style={{display:"flex", 
+        justifyContent: "center",
+        alignItems: "center"}}
           width={'100%'}
-          height={'360px'}
+          height={'380px'}
           chartType="LineChart"
           loader={<div>Carregando Gráfico</div>}
           data={mapCoins()
@@ -150,7 +153,7 @@ function Connection() {
 
 
           </div>
-        </div>
+        
     );
 }
 
